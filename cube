@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+    float side, volume;
+    printf("Enter the length of a side: ");
+    scanf("%f", &side);
+    volume = pow(side, 3);
+    printf("The volume of the cube is: %.2f", volume);
+    return 0;
+}
